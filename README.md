@@ -1,7 +1,7 @@
-Danni's vimrc
+Rob's vimrc
 =============
 
-This is Danni's vimrc, it is built on pathogen and git submodules.
+This is Rob's vimrc, it is built on pathogen and git submodules, based of Dannielle Madeley's <https://github.com/danni/vim-config>
 
 Includes config obtained many years ago from Grahame Bowland.
 
