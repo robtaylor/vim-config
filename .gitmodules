@@ -43,3 +43,6 @@
 [submodule "bundle/vim-scala"]
 	path = bundle/vim-scala
 	url = https://github.com/derekwyatt/vim-scala.git
+[submodule "bundle/vim-syntax-haskell-cabal"]
+	path = bundle/vim-syntax-haskell-cabal
+	url = https://github.com/Twinside/vim-syntax-haskell-cabal
