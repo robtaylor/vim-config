@@ -1,5 +1,6 @@
 runtime bundle/pathogen/autoload/pathogen.vim
 execute pathogen#infect()
+execute pathogen#helptags()
 
 "if has("gui_gtk2")
 "    set guifont=Source\ Code\ Pro\ Medium\ 10
@@ -22,6 +23,7 @@ set pastetoggle=<F10>
 " disable mouse pointer moving in Insert mode, do focus follows mouse
 "set mouse=nv mousefocus
 
+filetype plugin indent on
 
 if has("syntax")
   syntax on

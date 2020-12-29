@@ -46,3 +46,6 @@
 [submodule "bundle/vim-syntax-haskell-cabal"]
 	path = bundle/vim-syntax-haskell-cabal
 	url = https://github.com/Twinside/vim-syntax-haskell-cabal
+[submodule "bundle/python-mode"]
+	path = bundle/python-mode
+	url = https://github.com/python-mode/python-mode.git
