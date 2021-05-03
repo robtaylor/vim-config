@@ -58,3 +58,5 @@ au FileType tex,docbk,html,htmldjango ts=2 sts=2 sw=2
 "    au FileType python set columns=121
 "endif
 
+" settings for python_mode
+let g:pymode_lint_options_mccabe = { 'complexity': 15 }"
