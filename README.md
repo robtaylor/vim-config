@@ -10,8 +10,7 @@ Feel free to clone as .vim and then symlink .vim/vimrc -> .vimrc
 
 Start of day:
 
-    git submodule init
-    git submodule update
+    git submodule update --init --recursive
 
 
 To add a new bundle, simply:
