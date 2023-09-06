@@ -51,6 +51,7 @@ let g:jedi#show_function_definition = 0
 " file type defaults
 au FileType tex,docbk,html set tw=78
 au FileType tex,docbk,html,htmldjango ts=2 sts=2 sw=2
+au FileType meson ts=2 sts=2 sw=2
 
 " tag bar
 "if has("gui_running")
