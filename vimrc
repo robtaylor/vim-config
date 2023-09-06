@@ -1,3 +1,6 @@
+" settings for python_mode
+let g:pymode_lint_options_mccabe = { 'complexity': 15 }"
+
 runtime bundle/pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 execute pathogen#helptags()
@@ -44,9 +47,9 @@ set list listchars=tab:»·,nbsp:━
 set formatoptions=crotqc
 
 " settings for Jedi
-let g:jedi#autocompletion_command = "<C-n>"
+let g:jedi#completions_command = "<C-n>"
 let g:jedi#popup_on_dot = 0
-let g:jedi#show_function_definition = 0
+let g:jedi#show_call_signatures = 0
 
 " file type defaults
 au FileType tex,docbk,html set tw=78
@@ -58,6 +61,3 @@ au FileType meson ts=2 sts=2 sw=2
 "    au FileType python TagbarOpen
 "    au FileType python set columns=121
 "endif
-
-" settings for python_mode
-let g:pymode_lint_options_mccabe = { 'complexity': 15 }"
